@@ -18,8 +18,7 @@ body{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px;
- 
-    color: #fff;
+    
 }
 .theme-button{
     display: inline-block;
@@ -122,8 +121,42 @@ body{
  .extension-area .theme-text p{
     color: #fff;
  }
+/* customize */
 
+
+.customize-area{
+    padding: 140px 0;
+ }
  
+
+ /* pricing-area */
+
+ .pricing-area{
+    background-color: #fff;
+    padding: 140px 0;
+ }
+.pricing-area .theme-text{
+    margin-bottom: 60px;
+}
+
+.single-pricing{
+    color:#FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* mediao quriews */
 
 @media (max-width:991px){
@@ -161,7 +194,6 @@ body{
         transform: translateY(-50%);
     }
 
-
     .theme-text { 
         text-align: center;
     }
@@ -187,6 +219,10 @@ body{
     
      .extension-area .theme-text {
         margin-bottom: 50px;
+     }
+
+     .customize-area { 
+        padding: 80px 0;
      }
     
 
